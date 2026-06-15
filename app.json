@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MovieHub Mobile",
+    "slug": "moviehub-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0D1117"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos da câmera para definir a foto do seu perfil."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA"],
+      "package": "com.moviehub.mobile"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita o acesso à câmera para tirar sua foto de perfil."
+        }
+      ]
+    ]
+  }
+}
