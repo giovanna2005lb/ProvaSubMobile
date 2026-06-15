@@ -93,5 +93,5 @@ O vídeo de demonstração (até 2 minutos) mostra:
 5. Tela de perfil com captura de foto via câmera e troca de tema.
 
 ## 👨‍💻 Autor
-
+Giovanna Bueno RM - 556242
 Projeto desenvolvido para a disciplina de Mobile Application Development — Prof. Fernando Pinéo.
